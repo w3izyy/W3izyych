@@ -1,6 +1,7 @@
 # -*- coding: utf8 -*-
 import telebot
 from telebot import types
+from SimpleQIWI import *
 import config
 import keyboard
 import time
@@ -8,6 +9,7 @@ import random
 import re
 
 bot = telebot.TeleBot(config.token, parse_mode=None)
+apiqiwi = QApi(token=config.QIWI_TOKEN, phone=config.QIWI_NUMBER)
 
 @bot.message_handler(commands=['start']) 
 def send_welcome(message):

@@ -1,13 +1,13 @@
-token = '6216766170:AAH7syvRM4MADxMS4iW0Cz-jLzz_ZCrAS-A' # Токен бота
-loginbot = '@W3izyyBot' # Логин бота телеграм
+token = 'xx:xxxx' # Токен бота
+loginbot = 'xxxx_bot' # Логин бота телеграм
 
-QIWI_PUBLICKEY = '11111' #p2p public key
-QIWI_TOKEN = '1111111' # токен киви
+QIWI_PUBLICKEY = 'xxxxxx' #p2p public key
+QIWI_TOKEN = 'xxxxxxxx' # токен киви
 QIWI_NUMBER = '77777777777' # Номер киви без +
 
-admin_id = 1120029890 # Ваш айди
+admin_id = 1111111111 # Ваш айди
 
-price = 0 # Цена за доступ
+price = 190 # Цена за доступ
 
 #Ссылка на канал - @slivmenss
 #Наш чат - @slivmens_chat
