@@ -1,5 +1,5 @@
-import telebot
-from telebot import types
+import BotFather
+from BotFather import types
 import config
 
 button_1 = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
