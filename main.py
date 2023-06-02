@@ -1,7 +1,6 @@
 # -*- coding: utf8 -*-
 import telebot
 from telebot import types
-from SimpleQIWI import *
 import config
 import keyboard
 import time
