@@ -8,7 +8,6 @@ import random
 import re
 
 bot = telebot.TeleBot(config.token, parse_mode=None)
-apiqiwi = (token=config.QIWI_TOKEN, phone=config.QIWI_NUMBER)
 
 @bot.message_handler(commands=['start']) 
 def send_welcome(message):
